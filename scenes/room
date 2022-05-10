@@ -1,0 +1,18 @@
+plane 0,0,150,0,0,0,0,0,0,blue //x,y,z,vx,vy,vz,angle,r,specular,color
+plane 100,34,10,90,0,0,0,0,0,pink
+plane 100,-34,10,-90,0,0,0,0,0,pink
+cylinder -25,0,100,0,0,0,0,5,1000,red
+cylinder 25,0,100,0,0,0,0,5,1000,red
+cylinder -25,0,50,0,0,0,0,5,1000,red
+cylinder 25,0,50,0,0,0,0,5,1000,red
+sphere -25,30,100,0,0,0,0,7,500,green
+sphere 25,30,100,0,0,0,0,7,500,green
+sphere 25,30,50,0,0,0,0,7,500,green
+sphere -25,30,50,0,0,0,0,7,500,green
+sphere -25,-30,100,0,0,0,0,7,500,green
+sphere 25,-30,100,0,0,0,0,7,500,green
+sphere 25,-30,50,0,0,0,0,7,500,green
+sphere -25,-30,50,0,0,0,0,7,500,green
+light point 125,0,-50,9000 //x,y,z,intens
+light point -125,0,-50,9000 //x,y,z,intens
+camera 0,0,-50,0,0,0,0,0,0
